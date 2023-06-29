@@ -7,7 +7,7 @@ public class Main {
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine());
-		int N = Integer.parseInt(st.nextToken()); // 끊어진 기타줄의 개수
+		int N = Integer.parseInt(st.nextToken()); // 끊어진 기타줄 개수
 		int M = Integer.parseInt(st.nextToken()); // 기타줄 브랜드 개수
 		
 		int[] pack = new int[M]; // 패키지의 가격
